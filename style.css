@@ -72,6 +72,10 @@ nav .logo{
     position: relative;
 }
 
+.wrapper .container .imageContainer .imagDetail .imgDiscription{
+    display: none;
+}
+
 .wrapper .container .imageContainer .imagDetail .ImageWrapper{
     overflow: hidden;
     width: 430px;
@@ -148,6 +152,12 @@ nav .logo{
     object-fit: cover;
 }
 
+.errorMessage{
+    text-align: center;
+    color: rgb(150, 149, 149);
+    display: none;
+}
+
 @media(max-width: 680px){
     .fullImg .module{
        width: 90%;
@@ -174,5 +184,9 @@ nav .logo{
 
     .active{
         display: flex;
+    }
+
+    .wrapper .container .imageContainer .imagDetail .ImageWrapper{
+        width: 320px;
     }
 }
